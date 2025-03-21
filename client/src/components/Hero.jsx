@@ -18,17 +18,17 @@ function Hero() {
                 </a>
               </div>
             </div> */}
-
-            <h1 className="mt-24 text-pretty text-5xl font-semibold tracking-tight text-gray-900 sm:mt-10 sm:text-7xl ">
-              בואו להעשיר את העסק שלכם עם פתרונות אינטגרציה מתקדמים
+            <h1 className="mt-24 text-pretty text-5xl font-semibold tracking-tight text-gray-900 sm:mt-10 sm:text-7xl">
+              בנו את העתיד של העסק שלכם עם חנות אונליין שתמנף את הרווחים
             </h1>
             <p
               className="mt-8 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8"
               dir="rtl"
             >
-              אנחנו מתמחים בחיבור חנויות Shopify לעסקים מקומיים בישראל, עם
-              פתרונות המשלבים חווית משתמש מתקדמת וניהול קל ונוח. הצטרפו להצלחה
-              עם החנות האונליין המושלמת.
+              אנחנו מתמחים בהקמה ושדרוג של חנויות Shopify עבור עסקים מקומיים
+              בישראל, עם פתרונות אינטגרציה חכמים שמעניקים חווית משתמש מעולה
+              וניהול פשוט. הצטרפו אלינו ופתחו דלתות לעסק מצליח יותר עם חנות
+              אונליין שמייצרת רווחים.
             </p>
             <div className="mt-10 flex items-center gap-x-6">
               <a
@@ -52,7 +52,8 @@ function Hero() {
         <div className="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
           <img
             alt="פתרונות אינטגרציה לעסק"
-            src="https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2102&q=80"
+            src="https://images.pexels.com/photos/1797428/pexels-photo-1797428.jpeg"
+            // src="https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2102&q=80"
             className="aspect-[3/2] w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
           />
         </div>

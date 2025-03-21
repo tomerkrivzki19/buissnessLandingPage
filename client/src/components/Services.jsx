@@ -12,7 +12,7 @@ function Services() {
           </h2>
           <p className="mx-auto mt-2 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 sm:text-5xl">
             {/* Everything you need to deploy your app */}
-            כל מה שאתה צריך כדי לפתוח את האתר שלך
+            כל מה שאתם צריכים כדי לפתוח את האתר לעסק שלכם
           </p>
           <div
             className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2"
