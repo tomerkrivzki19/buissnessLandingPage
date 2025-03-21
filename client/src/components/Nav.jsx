@@ -11,7 +11,7 @@ const navigation = [
 function Nav() {
   return (
     <div>
-      <Popover as="header" className="relative z-10 pb-5">
+      <Popover as="header" className="relative z-10 pb-5 bg-gray-50">
         <div className="bg-gray-50">
           <nav
             aria-label="Global"

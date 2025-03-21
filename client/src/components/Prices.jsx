@@ -45,7 +45,7 @@ const checklist = [
 
 function Prices() {
   return (
-    <div className="relative bg-white">
+    <div className="relative bg-white" id="Pricing">
       <div aria-hidden="true" className="absolute inset-0">
         <div className="absolute inset-y-0 right-0 w-1/2 bg-purple-400" />
       </div>

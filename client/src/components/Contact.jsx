@@ -99,7 +99,7 @@ const footerNavigation = {
   ],
 };
 
-function MainPage() {
+function Contact() {
   return (
     <div className="bg-white">
       {/* <Popover as="header" className="relative z-10">
@@ -581,4 +581,4 @@ function MainPage() {
   );
 }
 
-export default MainPage;
+export default Contact;

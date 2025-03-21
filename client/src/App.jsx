@@ -2,7 +2,7 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import MainPage from "./components/MainPage";
+import Contact from "./components/Contact";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Nav from "./components/Nav";
@@ -17,7 +17,8 @@ function App() {
       <Hero />
       <Services />
       <Prices />
-      <MainPage />
+      <Contact />
+      {/*Contact -> have also footer inside  */}
     </>
   );
 }
