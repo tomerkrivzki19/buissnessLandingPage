@@ -11,6 +11,13 @@ import Prices from "./components/Prices";
 function App() {
   const [count, setCount] = useState(0);
 
+  // Notes : TODO:
+  // -build all the existing components -finish the ui-ux desing
+  // -teanform footer  + nav
+  // -create a poput when scrooling to all components = use the exmpale in ganhmishakim project
+  //  -create a page for all pricing page
+  //  -crate a function that will send me a user detaills
+
   return (
     <>
       <Nav />
