@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Nav from "./components/Nav";
 import Prices from "./components/Prices";
+import Footer from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
   //  -create a page for all pricing page
   //  -crate a function that will send me a user detaills
 
+  // company name -- VeloCommerce
   return (
     <>
       <Nav />
@@ -25,7 +27,7 @@ function App() {
       <Services />
       <Prices />
       <Contact />
-      {/*Contact -> have also footer inside  */}
+      <Footer />
     </>
   );
 }
