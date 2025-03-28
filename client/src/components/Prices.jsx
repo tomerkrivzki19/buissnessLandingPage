@@ -190,7 +190,7 @@ function Prices() {
         </div>
       </div> */}
 
-      <div className="relative bg-white" id="Pricing" dir="rtl">
+      <div className="relative bg-white" dir="rtl">
         <div aria-hidden="true" className="absolute inset-0">
           <div className="absolute inset-y-0 left-0 w-1/2 bg-purple-400" />
         </div>
@@ -225,8 +225,15 @@ function Prices() {
               </dl>
             </div>
           </div>
-          <div className="bg-purple-400 px-6 py-16 sm:py-24 lg:flex lg:items-center lg:justify-start lg:bg-none lg:px-0 lg:pr-8">
+          <div
+            className="bg-purple-400 px-6 py-16 sm:py-24 lg:flex lg:items-center lg:justify-start lg:bg-none lg:px-0 lg:pr-8"
+            id="Pricing"
+          >
             <div className="mx-auto w-full max-w-lg space-y-8 lg:mx-0">
+              <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl text-center">
+                Special Offer
+              </h1>
+
               <h1
                 className="block text-center text-base font-medium text-purple-700"
                 dir="ltr"
