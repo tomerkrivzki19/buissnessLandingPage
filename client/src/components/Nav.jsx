@@ -23,7 +23,7 @@ function Nav() {
             className="relative mx-auto flex max-w-7xl items-center justify-between px-6 pt-8 xl:px-8"
           >
             <div className="flex w-full items-center justify-between lg:w-auto">
-              <a href="#">
+              <a href="/">
                 <span className="sr-only">Your Company</span>
                 <img
                   alt="לוגו חברה"

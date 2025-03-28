@@ -304,7 +304,7 @@ function Prices() {
                 התחל היום
               </a>
               <a
-                href="#"
+                href="/prices"
                 className="block text-center text-base font-medium text-purple-700 hover:text-white"
               >
                 {/* נסה את תוכנית הלייט שלנו בחינם */}

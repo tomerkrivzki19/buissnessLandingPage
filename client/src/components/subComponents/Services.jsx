@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../assets/WhatsApp Image 2025-03-19 at 16.59.57_bc5d034e.jpg";
+import img1 from "../../assets/WhatsApp Image 2025-03-19 at 16.59.57_bc5d034e.jpg";
 
 function Services() {
   return (
