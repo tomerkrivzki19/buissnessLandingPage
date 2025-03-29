@@ -11,10 +11,10 @@ const navigation = [
 ];
 const footerNavigation = {
   solutions: [
-    { name: "Marketing", href: "#" },
-    { name: "Analytics", href: "#" },
-    { name: "Commerce", href: "#" },
-    { name: "Insights", href: "#" },
+    { name: "שיווק", href: "#" },
+    { name: "ניתוח נתונים", href: "#" },
+    { name: "מסחר", href: "#" },
+    { name: "תובנות", href: "#" },
   ],
   support: [
     { name: "Pricing", href: "#" },
@@ -106,7 +106,7 @@ function Footer() {
         <div className="mx-auto max-w-md px-6 py-16 text-center sm:max-w-2xl sm:py-24 lg:px-8 lg:py-32">
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl text-right">
             <span className="block text-white">רוצה חנות אונליין שמוכרת?</span>
-            <span className="block text-purple-900">
+            <span className="block text-purple-900" dir="rtl">
               אנחנו כאן כדי לבנות אותה עבורך!
             </span>
           </h2>
@@ -125,12 +125,18 @@ function Footer() {
       </div>
 
       {/* Footer  */}
-      <footer aria-labelledby="footer-heading" className="bg-gray-900">
+      <footer
+        aria-labelledby="footer-heading"
+        className="bg-gray-900 "
+        // FIXME: fix the overlapping
+        // dir="rtl"
+      >
         <h2 id="footer-heading" className="sr-only">
           Footer
         </h2>
         <div className="mx-auto max-w-md px-6 py-12 sm:max-w-lg sm:pt-16 lg:max-w-7xl lg:px-8 lg:pb-16 lg:pt-24">
           <div className="xl:grid xl:grid-cols-3 xl:gap-8">
+            {/* TODO: swtich the IMG  */}
             <div className="space-y-8 xl:col-span-1">
               <img
                 alt="Company name"
@@ -138,8 +144,7 @@ function Footer() {
                 className="h-10"
               />
               <p className="text-base text-gray-400">
-                Making the world a better place through constructing elegant
-                hierarchies.
+                בונים חוויות איקומרס מושלמות עם דפי נחיתה שממירים יותר.{" "}
               </p>
               <div className="flex space-x-6">
                 {footerNavigation.social.map((item) => (
