@@ -3,8 +3,10 @@ import { Popover, PopoverButton, PopoverPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 // import logo from "../assets/Untitle_design.svg";
 // import logo from "../assets/Untitled_design.svg";
-import logo from "../assets/Untitled_design.gif";
-import logo2 from "../assets/Untitled_design_(1).svg";
+// import logo from "../assets/Untitled_design.gif";
+import logo from "../assets/TomStudio.gif";
+import logo2 from "../assets/Your_paragraph_text_(Website).gif";
+// import logo2 from "../assets/Untitled_design_(1).svg";
 
 const navigation = [
   { name: "Work", href: "#" },
@@ -16,7 +18,7 @@ function Nav() {
   return (
     <div>
       {/* <Popover as="header" className="relative z-10 pb-5 bg-gray-50"> */}
-      <Popover as="header" className="relative z-10  pb-3 bg-gray-50 ">
+      <Popover as="header" className="relative z-10  pb-3 bg-white ">
         <div className="">
           <nav
             aria-label="Global"
@@ -31,8 +33,16 @@ function Nav() {
                   src={logo}
                   // src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=purple&shade=600"
                   // className="h-8 w-auto sm:h-10"
-                  className=" absolute top-2 left-2 h-28 sm:h-46 "
+                  className=" absolute top-2 left-2 h-42 sm:h-46 "
                 />
+                {/* <img
+                  alt="לוגו חברה"
+                  // src={logo2}
+                  src={logo2}
+                  // src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=purple&shade=600"
+                  className="h-22 w-full "
+                  // className=" absolute top-2 left-2 h-42 sm:h-46 "
+                /> */}
               </a>
               <div className="-mr-2 flex items-center lg:hidden">
                 <PopoverButton className="focus-ring-inset relative inline-flex items-center justify-center rounded-md bg-gray-50 p-2 text-gray-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-purple-500">
