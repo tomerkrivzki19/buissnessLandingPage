@@ -233,12 +233,14 @@ function Prices() {
               <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl text-center">
                 Special Offer
               </h1>
+              <h3 className="sm:text-5xl text-4xl text-center font-bold tracking-tight text-white">
+                ₪<span className="line-through">7,500</span>
+              </h3>
 
               <h1
                 className="block text-center text-base font-medium text-purple-700"
                 dir="ltr"
               >
-                {" "}
                 {/* החבליה הבסיסית */}
                 {/* Basic -For Small Buissness */}
                 <h3 className="mt-5 font-display text-lg text-white">

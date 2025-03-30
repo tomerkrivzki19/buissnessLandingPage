@@ -112,7 +112,7 @@ function Footer() {
           </h2>
           <a
             dir="rtl"
-            href="#"
+            href="/prices"
             className="mt-8 inline-flex w-full items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-purple-600 shadow-md hover:bg-purple-50 sm:w-auto"
           >
             <span>קבל את החנות שלך עכשיו</span>
