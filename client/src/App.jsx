@@ -11,6 +11,7 @@ import Prices from "./components/subComponents/Prices";
 import Footer from "./components/Footer";
 import MainPage from "./components/MainPage";
 import PricesPage from "./components/PricesPage";
+import ErrorPage from "./components/ErrorPage";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -27,7 +28,7 @@ function App() {
     <Router>
       <Nav />
       <Routes>
-        {/* <Route path="*" element={<ErroePage />} /> */}
+        <Route path="*" element={<ErrorPage />} />
 
         <Route path="/" element={<MainPage />} />
         <Route path="/prices" element={<PricesPage />} />
